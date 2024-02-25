@@ -1,0 +1,60 @@
+.CardSection{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 1rem;
+    /* gap: 2rem; */
+    width: 1124px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Card{
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 8px grey;
+    width: 30%;
+    border-radius: 1rem;
+}
+
+.cardImage{
+    text-align: center;
+    padding: 1rem;
+}
+
+.cardImage img{
+    width: 60%;
+}
+
+.cardText{
+    margin-top: 2rem;
+}
+#offers{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.offerText{
+    background: #F2F4F7;
+    /* border: 0.5px solid black; */
+    padding: 0.1rem 0.5rem;
+    color: #074786;
+    border-radius: 5px;
+}
+
+.price{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.price :first-child{
+    font-weight: 500;
+    font-size:large;
+}
+
+.price :last-child{
+    color: red;
+    font-size: small;
+}
